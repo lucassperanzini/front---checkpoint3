@@ -1,0 +1,72 @@
+
+
+header {
+    background-color: #000000;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .logo {
+    width: 5%;
+    margin-right: 20px;
+  }
+
+  .titulo_site {
+
+    color: #f9f9f9;
+    font-size: 1em;
+  }
+
+ .div_fundo {
+    display: flex;
+    justify-content:space-between;
+ }
+
+ .fundo_produto,
+ .iphone_fundo,
+ .macbook_fundo {
+     flex-grow: 1;
+     width: 30%;
+     height: 320px;
+ }
+
+  /* Estilos para os produtos */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .produto {
+    width: 200px; 
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .produto img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    max-height: 400px;
+  }
+
+  /* Estilos adicionais */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 24px;
+  }
